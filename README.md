@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.imgur.com/vHMZdSF.png" width="30%">
+<img src="https://i.imgur.com/vHMZdSF.png" width="40%">
 </p>
 <p align="center">
 <img src="https://github.com/ec-coding/CLU-Scape/blob/main/img/clu-scape%20preview.gif" width="75%">
