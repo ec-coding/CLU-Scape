@@ -1,8 +1,8 @@
 <p align="center">
-<img src="https://i.imgur.com/m6WkN2M.png" width="50%">
+<img src="https://i.imgur.com/vHMZdSF.png" width="50%">
 </p>
 <p align="center">
-<img src="https://github.com/ec-coding/Celestial-Snapshots/blob/main/img/celestial-snapshots2.gif" width="75%">
+<img src="https://github.com/ec-coding/CLU-Scape/blob/main/img/clu-scape%20preview.gif" width="75%">
 </p>
 <h2 align="center">An APOD Web App linked with NASA's API</h2>
 <p align="center">
