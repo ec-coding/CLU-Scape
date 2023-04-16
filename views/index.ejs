@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <title>CLU-Scape</title>
+</head>
+
+<body>
+    <div class="mt-5 pt-5">
+        <h1 class="bg-opaque-thick tron-border border-4 p-3 m-1 mt-5 font-stroke-2 box-sh">The Grid - CLU-Scape</h1>
+        <div class="row">
+            <div class="col bg-opaque tron-border border-4 p-4 m-3 box-sh">
+                <h2 class="font-stroke-2">Add a quote</h2>
+                <form class="py-2" action="/quotes" method="POST">
+                    <input type="text" placeholder="Name" name="name" class="border border-info border-2">
+                    <input type="text" placeholder="Quote" name="quote" class="border border-info border-2">
+                    <button type="submit" class="bg-warning fw-bold mt-3">Submit</button>
+                </form>
+            </div>
+            <div class="col bg-animosity border-4 p-4 m-3 box-sh">
+                <h2 class="font-stroke-2">CLU invades!</h2>
+                <p class="text-warning h5 my-3">Replace the first TRON quote with a quote written by CLU</p>
+                <button id="update-button" class="bg-warning fw-bold">Replace TRON's quote</button>
+            </div>
+            <div class="col bg-derez border-4 p-4 m-3 box-sh">
+                <h2 class="font-stroke-2">Derez CLU!</h2>
+                <p class="text-warning h5 my-3">Delete one of CLU's quotes. Does nothing if there are no more quotes
+                    from CLU.</p>
+                <button id="delete-button" class="bg-warning fw-bold">Delete CLU's quote</button>
+                <div id="message" class="text-warning mt-2"></div>
+            </div>
+        </div>
+        <div class="row mx-0 px-1">
+            <div class="bg-opaque-thin tron-border border-4 box-sh col">
+                <h2 class="font-stroke-2 p-3 m-1">Quotes</h2>
+                <ul class="quotes mb-4">
+                    <% for(var i=0; i < quotes.length; i++) {%>
+                        <li class="quote">
+                            <span class="text-warning h5">
+                                <%= quotes[i].name %> :
+                            </span>
+                            <span class="text-info h5">
+                                <%= quotes[i].quote %>
+                            </span>
+                        </li>
+                        <% } %>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <script src="/main.js"></script>
+</body>
+
+</html>

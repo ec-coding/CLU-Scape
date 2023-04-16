@@ -1,0 +1,72 @@
+@import url('https://fonts.cdnfonts.com/css/tron');
+
+body {
+  background: url('https://wallpapercave.com/wp/wp2799855.jpg');
+  padding: 0 25vh;
+  padding-top: 8.5vh;
+}
+
+body h1, h2 {
+  color: black;
+  font-family: 'TRON', sans-serif;
+}
+
+img {
+  width: 20% !important;
+}
+
+input {
+  color: #ffc400;
+  background: rgba(122, 122, 122, 0.55)
+}
+
+button {
+  box-shadow:
+    1px 1px 0.5em rgba(122, 122, 122, 0.55),
+    inset 1.5px 1.5px 0 rgba(255, 255, 255, 0.9),
+    inset -1.5px -1.5px 0 rgba(0, 0, 0, 0.5);
+}
+
+.bg-opaque-thin {
+  background-image: linear-gradient(rgb(12, 242, 250, 0.85) 0%, rgba(0, 0, 0) 10%, rgba(0, 0, 0) 90%, rgb(12, 241, 250, 0.85) 100%);
+}
+
+.bg-animosity {
+  border: 3px solid rgba(255, 127, 88, 0.75);
+  background-image: linear-gradient(rgba(255, 127, 88, 0.75) 0%, rgba(0, 0, 0) 10%, rgba(0, 0, 0) 35%, rgba(255, 127, 88, 0.75) 100%);
+}
+
+.bg-derez {
+  border: 3px solid rgba(238, 255, 88, 0.75);
+  background-image: linear-gradient(rgba(238, 255, 88, 0.75) 0%, rgba(0, 0, 0) 10%, rgba(0, 0, 0) 35%, rgba(238, 255, 88, 0.75) 100%);
+}
+
+
+.bg-opaque {
+  background-image: linear-gradient(rgb(12, 241, 250, 0.85) 0%, rgba(0, 0, 0) 10%, rgba(0, 0, 0) 35%, rgb(12, 241, 250, 0.85) 100%);
+}
+
+.bg-opaque-thick {
+  background-image: linear-gradient(rgb(12, 241, 250, 0.85) 0%, rgba(0, 0, 0) 20%, rgba(0, 0, 0) 80%, rgb(12, 241, 250, 0.85) 100%);
+}
+
+.box-sh {
+  border-radius: 1vh;
+  box-shadow:
+  1px 1px 0.5em rgba(122, 122, 122, 0.55),
+  inset 1.5px 1.5px 0 rgb(185, 0, 0),
+  inset -1.5px -1.5px 0 rgb(92, 0, 0);
+}
+
+.tron-border {
+  border: 3px solid #0CF1FA;
+}
+
+.font-stroke-2 {
+  -webkit-text-stroke: 3px #0CF1FA;
+}
+
+.font-stroke-1 {
+  -webkit-text-stroke: 1px #0CF1FA;
+}
+
