@@ -20,19 +20,19 @@
                 <form class="py-2" action="/quotes" method="POST">
                     <input type="text" placeholder="Name" name="name" class="border border-info border-2">
                     <input type="text" placeholder="Quote" name="quote" class="border border-info border-2">
-                    <button type="submit" class="bg-warning fw-bold mt-3">Submit</button>
+                    <button type="submit" class="bg-warning fw-bold mt-3" disabled>Submit</button>
                 </form>
             </div>
             <div class="col bg-animosity border-4 p-4 m-3 box-sh">
                 <h2 class="font-stroke-2">CLU invades!</h2>
                 <p class="text-warning h5 my-3">Replace the first TRON quote with a quote written by CLU</p>
-                <button id="update-button" class="bg-warning fw-bold">Replace TRON's quote</button>
+                <button id="update-button" class="bg-warning fw-bold" disabled>Replace TRON's quote</button>
             </div>
             <div class="col bg-derez border-4 p-4 m-3 box-sh">
                 <h2 class="font-stroke-2">Derez CLU!</h2>
                 <p class="text-warning h5 my-3">Delete one of CLU's quotes. Does nothing if there are no more quotes
                     from CLU.</p>
-                <button id="delete-button" class="bg-warning fw-bold">Delete CLU's quote</button>
+                <button id="delete-button" class="bg-warning fw-bold" disabled>Delete CLU's quote</button>
                 <div id="message" class="text-warning mt-2"></div>
             </div>
         </div>
