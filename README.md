@@ -6,6 +6,9 @@
 </p>
 <h2 align="center">A MongoDB-CRUD web app inspired by TRON: Legacy</h2>
 <p align="center">
+A full-stack CRUD app that links with MongoDB to read and update quote entries made by the user. Inspired by the film: TRON: Legacy.
+</p>
+<p align="center">
 <h3 align="center"><a href="https://clu-scape.cyclic.app/" target="_blank" rel="noreferrer">Website</a></h3>
 </p>
 
