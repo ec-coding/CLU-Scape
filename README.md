@@ -12,6 +12,9 @@ A full-stack CRUD app that links with MongoDB to read and update quote entries m
 <p align="center">
 <h3 align="center"><a href="https://clu-scape.cyclic.app/" target="_blank" rel="noreferrer">Website</a></h3>
 </p>
+<p align="center">
+Wallpaper by: <a href="https://www.deviantart.com/sarah-hextall-design/art/Tron-Grid-Wallpaper-1680x1050-264192187" target="_blank" rel="noreferrer">Sarah-Hextall-Design</a>
+</p>
 
 ## How It's Made:
 
